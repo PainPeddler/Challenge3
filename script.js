@@ -27,7 +27,7 @@ function generatePassword() {
   passChars = [];
   var generatedPass = [];
 
-passLength = prompt("How many characters long would you like your password to be? (Must be between 1-128")
+passLength = prompt("How many characters long would you like your password to be? (Must be between 8-128")
 console.log(passLength + " Characters" );
 passLength = parseFloat(passLength);
 
